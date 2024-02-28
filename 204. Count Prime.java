@@ -6,8 +6,11 @@ class Main{
         boolean a = false;
         int count;
         for (int i = 2; i < end; i++) {
-            for (int j = 2; j < ; j++) {
-
+            for (int j = 2; j <i-1 ; j++) {
+                if(j%i == 0 ){
+                    a = false;
+                 }else{
+                 a = true;}
             }
 
         }
